@@ -233,5 +233,10 @@ nav .right  {
       color:whitesmoke;
       display: flex;
   }
-    
+
+  @media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
 
