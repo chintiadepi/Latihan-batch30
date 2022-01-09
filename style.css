@@ -234,9 +234,9 @@ nav .right  {
       display: flex;
   }
 
-  @media only screen and (orientation: landscape) {
+  @media only screen and (max-width: 600px) {
     body {
-        background-color: white;
+      background-color: white;
     }
-}
+  }
 
