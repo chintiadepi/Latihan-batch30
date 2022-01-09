@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    background-color: whitesmoke;
+    height: 75px;
+}
+
+nav .left {
+    flex: 70%;
+    width: 50%;
+    align-items: center;
+    background-color:whitesmoke;
+    padding-left: 120px;
+    display: flex;
+}
+
+nav .left h1 {
+    font-weight: bolder;
+
+}
+
+nav .left ul li{
+    padding-left: 25px;
+    color: rgb(158, 151, 151);
+    text-decoration: none;
+    display: flex;
+    display: inline;
+}
+
+nav .left a{
+    color: grey;
+}
+
+nav .right  {
+    width: 50%;
+    flex: 30px;
+    display: flex;
+    text-align: right;
+    padding-left: 300px;
+    background-color: whitesmoke;
+}
+
+.keranjang img{
+    width: 20px;
+   height: 20px;
+   padding: 10px;
+   color: black;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   padding-right: 50px;
+   
+}
+
+.pp img{
+    width: 40px;
+   height: 40px;
+   border-radius: 40px;
+   padding: 10px;
+   align-items: center;
+   margin-top: 5px;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container .section {
+    display: flex;
+    width: 100%;
+}
+
+.section .left {
+    flex: 60% ;
+}
+
+.big img {
+    width: 300px;
+   height: 300px;
+   border-radius: 60px;
+   padding: 50px 100px 20px 100px;
+}
+
+.small{
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.small img{
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+    padding-right: 2px;
+    padding-bottom: 80px;
+}
+
+.section .right {
+    flex: 40%;
+    padding: 100px;
+}
+
+.section .right .up h5{
+    color:rgb(255, 94, 0);
+}
+
+.section .right .up h1{
+    color: black;
+}
+
+.section .right .up p{
+    color: grey;
+}
+
+.section .right .down{
+    display: inline;
+    display: flex;
+}
+
+.section .right .down h3{
+    color: black;
+    display: flex;
+}
+
+.section .right .down h6{
+    color: coral;
+    padding-left: 5px;
+    display: flex;
+    background-color: rgb(255, 230, 183);
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    display: flex;
+}
+
+.tagdown{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.quantity {
+    display: inline-block; 
+    align-items: center;
+    display: flex;
+}
+    
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid whitesmoke;
+   }
+   
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top;
+ }
+   
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 10px 15px 12px;
+    height: 41px;
+    background-color: rgb(247, 247, 247) ;
+    border: 1px solid whitesmoke;
+    color: orangered;
+    font-weight: bolder;
+    cursor:pointer;}
+   
+.quantity.buttons_added .minus {
+    border-right: 0; }
+   
+.quantity.buttons_added .plus {
+    border-left: 0; }
+   
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none; }
+
+.quantity.buttons_added .chart{
+        display: flex;
+        align-items: center;
+    }
+
+  .quantity.buttons_added .chart{
+      background-color: orange;
+      align-items: center;
+      padding: 10px 30px 12px;
+      margin: 10px 5px;
+     display: flex;
+     border:1px solid orange;
+  }
+
+
+  .quantity.buttons_added .image{
+      width: 20px;
+      align-items: center;
+      color: whitesmoke;
+      display: flex;
+  }
+  
+  .quantity.buttons_added .texts{
+      align-items: center;
+      color:whitesmoke;
+      display: flex;
+  }
+    
+
